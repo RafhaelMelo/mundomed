@@ -6,10 +6,9 @@
 	<description>Aplicativo para marcar e ver consultas do MundoMed</description>
 	<author href="http://www.imagineseusite.com.br" email="atendimento@imagineseusite.com.br">Imagine Comunicação Digital</author>  
 	
-    <preference name="permissions" value="none"/>
-	<preference name="phonegap-version" value="3.5.0" />
-	<preference name="fullscreen" value="true" />
-	<preference name="Orienation" value="portrait" />
+   <preference name="phonegap-version" value="3.5.0" /> <!-- all: current version of PhoneGap -->
+<preference name="orientation" value="default" /> <!-- all: default means both landscape and portrait are enabled -->
+<preference name="target-device" value="universal" /> <!-- all: possible values handset, tablet, or universal -->
+<preference name="fullscreen" value="true" /> 
 	
-	<icon src="icone.png" />
 </widget>
