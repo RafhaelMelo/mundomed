@@ -6,3 +6,8 @@ iframe{
   margin:0px;
   border:none;
 }
+.ocultar{
+			opacity:0;
+			position:relative;
+			display:none !important;
+		}
