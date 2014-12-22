@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<widget xmlns	= "http://www.w3.org/ns/widgets"
+		id		= "com.mundomed.www">
+	<name>MundoMed</name>
+	<description>Aplicativo para marcar e ver consultas do MundoMed</description>
+	<author href="http://www.imagineseusite.com.br" email="atendimento@imagineseusite.com.br">Imagine Comunicação Digital</author>  
+	
+    <preference name="permissions" value="none"/>
+	<preference name="fullscreen"       		value="true" />
+	<preference name="Orienation" value="portrait" />
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+	
+</widget>
