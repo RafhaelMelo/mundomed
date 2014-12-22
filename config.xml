@@ -12,8 +12,11 @@
 	
 	
     <preference name="permissions" value="none"/>
-	<preference name="fullscreen"       		value="true" />
-	<preference name="Orienation" value="portrait" />
+    <preference name="fullscreen"       		value="true" />
+    <preference name="Orienation" value="portrait" />
+    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenDelay" value="10000" />
+	<splash src="splash.png" />
 
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="http://api.phonegap.com/1.0/network"/>
